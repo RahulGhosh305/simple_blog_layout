@@ -91,10 +91,34 @@ header {
 
 .title {
     color: #626262;
-    font-size: 44px;
+    font-size: 38px;
 }
 
 .desc {
     line-height: 1.7;
     margin-bottom: 40px;
+}
+
+/* separately content */
+.post {
+    width: 48%;
+}
+
+.post img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.post-left {
+    float: left;
+}
+
+.post-right {
+    float: right;
+}
+
+.row {
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 70px;
 }
